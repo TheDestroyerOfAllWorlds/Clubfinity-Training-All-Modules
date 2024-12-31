@@ -1,0 +1,234 @@
+html {
+    background-color: black;
+    height: 100%;
+    margin: 0;
+}
+
+.box {
+    background-color: #121212;
+    color: white;
+    border-radius: 20px;
+    width: 96.5%;
+    height: 74.75%;
+    top: 10%;
+    left: 1%;
+    position: absolute;
+    padding: 10px;
+}
+
+.box h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    text-align: left;
+    font-size: 25px;
+    margin: 0;
+    z-index: 1;
+}
+
+.box::-webkit-scrollbar {
+    width: 12px;
+}
+
+.box::-webkit-scrollbar-track {
+    background: #333333;
+    border-radius: 20px;
+}
+
+.box::-webkit-scrollbar-thumb {
+    background: #555555;
+    border-radius: 20px;
+}
+
+.box::-webkit-scrollbar-thumb:hover {
+    background: #777777;
+}
+
+.search {
+    background-color: #121212;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    border: none;
+    width: 408px;
+    height: 58.5px;
+    left: 3.5%;
+    position: relative;
+    z-index: 1;
+}
+
+.search input { 
+    background-color: #121212;
+    color: white;
+    outline-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    width: 408px;
+    height: 58.5px;
+    padding-left: 50px;
+}
+
+.search img { 
+    position: absolute;
+    width: 25px;
+    top: 17.5px;
+    left: 15px
+}
+
+.back_button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0%;
+    top: 1.5%;
+    z-index: 2;
+}
+
+.music_button {
+    background-color: #121212;
+    border-radius: 20px;
+    border: none;
+    width: 408px;
+    height: 240px;
+    margin-top: 50px;
+    margin-right: 40px;
+    transition: all .15s ease-in-out
+}
+
+.music_image {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.music_button:hover {
+    transform: scale(1.035)
+}
+
+.pause_button {
+    position: absolute;
+    width: 50px;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pause_button:hover {
+    transform: scale(1.05) translateX(-48%);
+    transition: transform 0.15s ease;
+}
+
+.skip_button {
+    position: absolute;
+    width: 35px;
+    bottom: 45px;
+    left: 53%;
+}
+
+.previous_song_button {
+    position: absolute;
+    width: 35px;
+    bottom: 45px;
+    left: 44.45%;
+}
+
+.shuffle_play {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    bottom: 47px;
+    left: 40%;
+}
+
+.repeat {
+    position: absolute;
+    width: 25px;
+    height: 30px;
+    bottom: 45.5px;
+    left: 57.75%;
+}
+
+.song_info {
+    background-color: black;
+    border-radius: 8px;
+    max-width: 300px;
+    position: fixed;
+    bottom: 1.25%;
+    left: 1%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    z-index: 0;
+}
+
+.song_image {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+}
+
+.text_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.song_name {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.artist_name {
+    color: #B3B3B3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.music_bar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    gap: 10px;
+    width: 400px;
+    left: 35.75%;
+    bottom: 15px;
+}
+
+.current_time, .duration {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.progress_bar {
+    position: relative;
+    flex: 1;
+    height: 6px;
+    background-color: #404040;
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.progress {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background-color: white;
+    border-radius: 3px;
+    transition: width 0.3s ease;
+}
+
+#file_explorer {
+    position: absolute;
+    border-radius: 20px;
+    top: 14.5%;
+    left: 17%;
+    z-index: 2;
+  }
