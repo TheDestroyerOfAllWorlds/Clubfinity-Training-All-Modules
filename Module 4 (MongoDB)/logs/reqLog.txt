@@ -1,0 +1,13 @@
+20250128	13:08:47	0021d44f-8521-476a-87b9-3c4ee3dca82d	GET	undefined	/register
+20250128	13:08:47	ca2ee93f-fb00-4a6e-aae2-cd08f346ed49	GET	undefined	/css/style.css
+20250128	13:08:51	8e2593c4-4378-4544-8b36-1b1aadf87ff6	POST	undefined	/register
+20250128	13:09:10	4b3f6110-c324-4be6-b947-1ab7e836b500	POST	undefined	/register
+20250128	13:09:11	c8d01c64-41bf-4b08-8302-1ce41c8639e2	POST	undefined	/register
+20250128	13:09:12	d1dab5b6-cf16-41ea-97d4-b012ecf509c6	POST	undefined	/register
+20250128	13:11:09	d5e85c68-246f-4b7d-93fd-52e8f86c7ff1	GET	undefined	/register
+20250128	13:11:09	73f422d4-3eb8-4e90-ae88-d3dac47c4cc6	GET	undefined	/css/style.css20250129	01:45:08	515eb9c3-924d-4a75-8b1a-0d3969f3b208	GET	undefined	/register
+20250129	01:45:10	1e066a9f-5479-428b-8677-39f4e8f3899b	GET	undefined	/register
+20250129	01:46:03	07304764-e821-43f6-8c47-0c56e16db275	GET	undefined	/register
+20250129	01:46:05	0ed68f8b-bf2d-46b6-9da8-87e4968bd6ec	GET	undefined	/register
+20250129	01:46:23	9a6d6cd6-4307-4982-85dc-031daa7cd632	POST	undefined	/register
+20250129	01:46:31	7b8f0e52-a862-4d99-ae16-412a45231ba8	PUT	undefined	/register
